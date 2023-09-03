@@ -15,9 +15,10 @@ const Navbar = () => {
 
                 <ul className='nav-item-list'>
 
-                    <li>Home</li>
+                   
+                    <Link to="/"><li>Home</li></Link>
                     <Link to="/laptop"><li>Laptop</li></Link>
-                    <Link to="/"><li>Mobile Phones</li></Link>
+                    <Link to="/mobile"><li>Mobile Phones</li></Link>
                     <Link to="/headphones"><li>Headphones</li></Link>
 
                 </ul>
